@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: indigo;
+
+}
+.container{
+    width: 800px;
+    height: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+
+
+
+}
+.box{
+    width: 350px;
+  
+    background-image:url("https://img.freepik.com/premium-photo/scale-isolated-flat-color-background_980928-32840.jpg?w=1060");
+    background-position:center ;
+    background-repeat: no-repeat;
+    
+}
+.data{
+    flex: 1;
+  padding: 15px;
+
+}
+h1{
+    font-weight: 500px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #2988b9;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+
+    color: gray;
+   
+}
+input-container{
+    margin-bottom: 15px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.btn{
+    margin-top: 10px;
+    background-color: #2988b9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.result{
+    padding: 10px;
+    border: 1px solid #2988b9;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.result p:first-child{
+    color: teal;
+    font-weight: 700;
+}
+.error{
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.data button:nth-of-type(2){
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+    padding: 10px 23px;
+    border: none;
+    border-radius: 5px;
+}
